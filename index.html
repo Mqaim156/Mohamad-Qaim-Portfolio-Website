@@ -305,10 +305,10 @@
           <p>Hey! I’m Mohammad, I’m a first-year Mathematics student at the University of Waterloo building reliable ML + backend systems.</p>
           <p>My happy place: owning the loop from data → model → product. I like small, fast services with clear docs, tests, and performance budgets; most recently I’ve been shipping computer‑vision prototypes and TypeScript APIs.</p>
           <ul class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm">
-            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> PyTorch / OpenCV</li>
+            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> Scikit-Learn / OpenCV</li>
             <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> FastAPI / Flask</li>
-            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> React / TS / Vite</li>
-            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> AWS / Docker</li>
+            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> React / TS / Bootstrap</li>
+            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-[var(--accent)]"></span> SQL / Docker</li>
           </ul>
         </div>
         <div>
@@ -406,12 +406,12 @@
         <button class="filter focus-ring px-3 py-1.5 rounded-full border border-white/10 data-[on=true]:bg-[var(--accent-50)] data-[on=true]:text-[var(--accent)]" data-tag="all" data-on="true">All</button>
         <button class="filter focus-ring px-3 py-1.5 rounded-full border border-white/10 data-[on=true]:bg-[var(--accent-50)] data-[on=true]:text-[var(--accent)]" data-tag="ml">ML</button>
         <button class="filter focus-ring px-3 py-1.5 rounded-full border border-white/10 data-[on=true]:bg-[var(--accent-50)] data-[on=true]:text-[var(--accent)]" data-tag="web">Web</button>
-        <button class="filter focus-ring px-3 py-1.5 rounded-full border border-white/10 data-[on=true]:bg-[var(--accent-50)] data-[on=true]:text-[var(--accent)]" data-tag="infra">Game Dev</button>
+        <button class="filter focus-ring px-3 py-1.5 rounded-full border border-white/10 data-[on=true]:bg-[var(--accent-50)] data-[on=true]:text-[var(--accent)]" data-tag="game">Game Dev</button>
       </div>
 
       <div id="projectGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Card template -->
-        <article class="proj card rounded-2xl p-5 border border-white/10 group" data-tags="ml web">
+        <article class="proj card rounded-2xl p-5 border border-white/10 group" data-tags="web">
           <div class="flex items-center justify-between">
             <h3 class="text-lg font-semibold">PharmaPlus EMR</h3>
             <button class="open-modal opacity-70 group-hover:opacity-100 transition" aria-label="Open preview">
@@ -426,20 +426,20 @@
           </div>
         </article>
 
-        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="ml infra">
+        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="ml web">
           <div class="flex items-center justify-between">
             <h3 class="text-lg font-semibold">Language Detection Classifier</h3>
-            <span class="text-xs text-[var(--accent)]">FPS 60</span>
+            <span class="text-xs text-[var(--accent)]">NLP</span>
           </div>
           <p class="mt-2 text-sm text-slate-400">Language detection API with FastAPI, trained model, and Dockerized deployment.</p>
           <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-400">
             <span class="px-2 py-1 rounded-full border border-white/10">FastAPI</span>
-            <span class="px-2 py-1 rounded-full border border-white/10"></span>
-            <span class="px-2 py-1 rounded-full border border-white/10"></span>
+            <span class="px-2 py-1 rounded-full border border-white/10">Docker</span>
+            <span class="px-2 py-1 rounded-full border border-white/10">Heroku</span>
           </div>
         </article>
 
-        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="web infra">
+        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="web">
           <div class="flex items-center justify-between">
             <h3 class="text-lg font-semibold">Personal Site v3</h3>
             <span class="text-xs text-slate-400">This Website</span>
@@ -452,15 +452,15 @@
           </div>
         </article>
 
-        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="ml">
+        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="game">
           <div class="flex items-center justify-between">
-            <h3 class="text-lg font-semibold">Speech Emotion Classifier</h3>
-            <span class="text-xs text-[var(--accent)]">NLP + Audio</span>
+            <h3 class="text-lg font-semibold">RPS AI Bot</h3>
+            <span class="text-xs text-[var(--accent)]">AI + UI</span>
           </div>
           <p class="mt-2 text-sm text-slate-400">Multi‑modal model using MFCC + transformer embeddings for customer insights.</p>
           <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-400">
-            <span class="px-2 py-1 rounded-full border border-white/10">Librosa</span>
-            <span class="px-2 py-1 rounded-full border border-white/10">HuggingFace</span>
+            <span class="px-2 py-1 rounded-full border border-white/10">Python</span>
+            <span class="px-2 py-1 rounded-full border border-white/10">Pygame</span>
           </div>
         </article>
 
@@ -476,15 +476,15 @@
           </div>
         </article>
 
-        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="infra">
+        <article class="proj card rounded-2xl p-5 border border-white/10" data-tags="game">
           <div class="flex items-center justify-between">
-            <h3 class="text-lg font-semibold">CI/CD Templates</h3>
-            <span class="text-xs text-[var(--accent)]">Open Source</span>
+            <h3 class="text-lg font-semibold">Ocean Ecosystem Simulator</h3>
+            <span class="text-xs text-[var(--accent)]">60 FPS</span>
           </div>
-          <p class="mt-2 text-sm text-slate-400">Reusable GitHub Actions for lint, tests, build, and preview envs with one file.</p>
+          <p class="mt-2 text-sm text-slate-400">Developed a simulator to teach elementary students about aquatic food chains and animal hierarchies.</p>
           <div class="mt-4 flex flex-wrap gap-2 text-xs text-slate-400">
-            <span class="px-2 py-1 rounded-full border border-white/10">Actions</span>
-            <span class="px-2 py-1 rounded-full border border-white/10">Docker</span>
+            <span class="px-2 py-1 rounded-full border border-white/10">Java</span>
+            <span class="px-2 py-1 rounded-full border border-white/10">Processing</span>
           </div>
         </article>
       </div>
